@@ -3,7 +3,9 @@
 
 <beans>
 <bean id="triangle" class="com.gerard.horgan.Triangle">
-	<property name="type" value="Equilateral" />
+	
+	<constructor-arg index="0" value="Equalateral" />
+	<constructor-arg index="1" value="200" />
 	</bean>
 
 
